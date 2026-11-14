@@ -1571,7 +1571,7 @@ static int menu_fill_settings(struct menu_selection *menu)
     /* Boot-delay submenu: the same interaction as Language, with the
      * current value pre-selected and 0 worded as "do not auto-boot". */
     {
-        static const uint32_t delays[] = {0U, 3000U, 5000U, 8000U, 10000U, 15000U, 30000U};
+        static const uint32_t delays[] = {0U, 1000U, 2000U, 3000U, 5000U, 8000U, 10000U};
         struct menu_page *page = &menu->pages[MENU_PAGE_DELAY];
         size_t current = 0;
         for (size_t d = 0; d < sizeof(delays) / sizeof(delays[0]); ++d) {
