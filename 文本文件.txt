@@ -1,0 +1,2 @@
+cd /home/chenl/下载/kShimC4sheng-master/
+scripts/make-boot.sh --stock-boot boot_306.img --distro-boot boot_Forky.img --out out/boot_306+Forky.img
