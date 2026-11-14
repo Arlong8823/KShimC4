@@ -94,7 +94,7 @@ static const char *const kshim_menu_text_table[2][KSHIM_TEXT_COUNT] = {
         [KSHIM_TEXT_DESC_LANG_EN]     = "使用英文菜单。",
         [KSHIM_TEXT_LANG_ZH_NAME]     = "简体中文",
         [KSHIM_TEXT_LANG_EN_NAME]     = "English",
-        [KSHIM_TEXT_CREDIT]           = "原作者：B站 单翼，适配维护：tc191｜免费使用，谨防收费诈骗。",
+        [KSHIM_TEXT_CREDIT]           = "chenl",
 
         [KSHIM_TEXT_INFO_LABEL]       = "设备信息",
         [KSHIM_TEXT_INFO_DESC]        = "查看设备硬件信息（只读）。",
